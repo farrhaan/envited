@@ -1,0 +1,40 @@
+.main-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.heading-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #240d57;
+  margin: 0px;
+}
+.heading-gradient {
+  background: -webkit-linear-gradient(
+    90deg,
+    #8456ec 24.2%,
+    #e87bf8 120.46%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.main-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 16px;
+
+  color: #4f4f4f;
+}
+
+.main-image {
+  width: 166px;
+  margin-top: 36px;
+}

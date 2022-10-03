@@ -1,0 +1,22 @@
+.btn {
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+  padding: 16px;
+  width: 320px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+@media screen and (max-width: 639px) {
+  .btn {
+    max-width: 187px;
+    margin-top: 34px;
+    font-size: 16px; 
+    line-height: 18px;
+  }
+}
