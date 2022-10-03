@@ -37,13 +37,15 @@ export default function EventPage() {
     }
   }, [router]);
   return (
+    <div className="event-wrap-main">
+
     <div className='event-page'>
       <img
         src={imageUrl || "/Birthday-cake.png"}
         className='event-page-image'
       />
       <div className='event-page-wrap'>
-        <p className='event-page-header'>{eventName}</p>
+        <p className='event-page-header'>{eventName || "Event Name"}</p>
         <p className='event-page-host'>
           Hosted by <b>{hostName}</b>
         </p>
@@ -58,6 +60,11 @@ export default function EventPage() {
           text={eventLocation}
         />
       </div>
+    </div>
+    <img
+        src={imageUrl || "/Birthday-cake.png"}
+        className='event-page-image-large'
+      />
     </div>
   );
 }
