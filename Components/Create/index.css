@@ -74,7 +74,6 @@ input[type="file"] {
 }
 input:hover {
   background-color: #e87bf8;
-  
 }
 
 .continue-btn {
@@ -89,5 +88,13 @@ input:hover {
   font-size: 20px;
   line-height: 23px;
   margin-top: 36px;
+}
 
+form{
+  width: 500px;
+}
+@media screen and (max-width: 769px) {
+  form {
+    width: auto;
+  }
 }
